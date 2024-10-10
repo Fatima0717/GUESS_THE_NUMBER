@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: lightblue;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.App {
+  text-align: center; /* Center text inside the App container */
+}
+
+h1, h2, p {
+  color: lightblue; /* Ensure all text elements are light blue */
+  font-size: 2rem; /* Increase font size for better visibility */
+}
+
+/* Style for input and button to match the theme */
+input {
+  background-color: #333; /* Darker background for input */
+  color: lightblue; /* Light blue text for input */
+  border: 1px solid lightblue; /* Light blue border */
+  padding: 10px; /* Add some padding for better appearance */
+  margin: 10px; /* Add margin for spacing */
+  width: 200px; /* Set a fixed width for the input */
+}
+
+button {
+  background-color: #555; /* Dark button background */
+  color: lightblue; /* Light blue text */
+  border: 1px solid lightblue; /* Light blue border */
+  padding: 10px; /* Add some padding */
+  margin: 10px; /* Add margin for spacing */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: lightblue; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
